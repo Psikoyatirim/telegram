@@ -1,6 +1,6 @@
-pandas
 numpy
-ta
-python-telegram-bot
-yfinance
+pandas
+requests
 schedule
+tradingview-screener==2.5.0
+git+https://github.com/rongardF/tvdatafeed
