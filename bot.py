@@ -1,6 +1,4 @@
-!pip install git+https://github.com/rongardF/tvdatafeed
-!pip install tradingview-screener==2.5.0
-!pip install schedule
+
 import numpy as np
 import pandas as pd
 from tvDatafeed import TvDatafeed, Interval
