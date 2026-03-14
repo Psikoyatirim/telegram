@@ -1,5 +1,0 @@
-[phases.setup]
-nixPkgs = ["git"]
-
-[start]
-cmd = "python bot.py"
