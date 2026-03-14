@@ -9,3 +9,9 @@ Reponuza şu dosyayı ekleyin:
 **`Procfile`**:
 ```
 web: python bot.py
+
+[phases.setup]
+nixPkgs = ["git"]
+
+[start]
+cmd = "python bot.py"
