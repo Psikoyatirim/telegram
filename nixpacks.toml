@@ -1,15 +1,3 @@
-[start]
-cmd = "python bot.py"
-```
-
-### 2. Alternatif — `Procfile` Ekleyin
-
-Reponuza şu dosyayı ekleyin:
-
-**`Procfile`**:
-```
-web: python bot.py
-
 [phases.setup]
 nixPkgs = ["git"]
 
